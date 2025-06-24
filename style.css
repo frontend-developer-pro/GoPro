@@ -1,0 +1,29 @@
+ /* CSS Variables */
+ :root {
+     --light-white: #9c9c9cb8;
+     --gopro-blue: #00d4ff;
+     --dark-bg: #000000;
+     --dark-gray: #1a1a1a;
+     --light-gray: #666666;
+     --border-gray: #333333;
+ }
+
+ /* Reset and Base Styles */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ ::selection {
+     color: #fffefe78;
+     background-color: #08b5eb38;
+ }
+
+ body {
+     font-family: 'Inter', sans-serif;
+     background-color: var(--dark-bg);
+     color: white;
+     line-height: 1.6;
+     overflow-x: hidden;
+ }
